@@ -1,0 +1,167 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 15px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-button {
+  background-color: #eab308;
+  color: #ffffff;
+  padding: 5px 8px 5px 8px;
+  margin: 8px;
+  border-radius: 8px;
+  border-width: 0;
+  font-family: Roboto;
+  font-size: 10px;
+}
+
+.comment-button {
+  background-color: #ffffff;
+  color: #323f4b;
+  padding: 5px 8px 5px 8px;
+  margin: 8px;
+  border-radius: 8px;
+  border-width: 0;
+  font-family: Roboto;
+  font-size: 10px;
+}
+
+.share-button {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  padding: 5px 8px 5px 8px;
+  margin: 8px;
+  border-radius: 8px;
+  border-width: 0;
+  font-family: Roboto;
+  font-size: 10px;
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 20px;
+  }
+
+  .like-button {
+    padding: 7px 10px 7px 10px;
+    font-size: 10px;
+  }
+
+  .comment-button {
+    padding: 7px 10px 7px 10px;
+    font-size: 10px;
+  }
+
+  .share-button {
+    padding: 7px 10px 7px 10px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) and (max-width: 767px) {
+  .heading {
+    font-size: 25px;
+  }
+
+  .like-button {
+    padding: 10px 12px 10px 12px;
+    font-size: 12px;
+  }
+
+  .comment-button {
+    padding: 10px 12px 10px 12px;
+    font-size: 12px;
+  }
+
+  .share-button {
+    padding: 10px 12px 10px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 991x) {
+  .heading {
+    font-size: 30px;
+  }
+
+  .like-button {
+    padding: 12px 15px 12px 15px;
+    font-size: 15px;
+  }
+
+  .comment-button {
+    padding: 12px 15px 12px 15px;
+    font-size: 15px;
+  }
+
+  .share-button {
+    padding: 12px 15px 12px 15px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) and (max-width: 1199x) {
+  .heading {
+    font-size: 35px;
+  }
+
+  .like-button {
+    padding: 15px 17px 15px 17px;
+    font-size: 17px;
+  }
+
+  .comment-button {
+    padding: 15px 17px 15px 17px;
+    font-size: 17px;
+  }
+
+  .share-button {
+    padding: 15px 17px 15px 17px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heading {
+    font-size: 40px;
+  }
+
+  .like-button {
+    padding: 17px 20px 17px 20px;
+    font-size: 20px;
+  }
+
+  .comment-button {
+    padding: 17px 20px 17px 20px;
+    font-size: 20px;
+  }
+
+  .share-button {
+    padding: 17px 20px 17px 20px;
+    font-size: 20px;
+  }
+}
